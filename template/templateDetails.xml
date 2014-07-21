@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="template" client="site" method="upgrade">
+
+	<name>jreveal</name>
+
+	<files>
+		<folder>css</folder>
+		<folder>js</folder>
+		<folder>html</folder>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+
+	<positions>
+		<position>column-1</position>
+		<position>footer</position>
+		<position>nav</position>
+	</positions>
+
+</extension>
