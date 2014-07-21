@@ -23,7 +23,7 @@ if (count($this->items[$this->parent->id]) > 0 && $this->maxLevelcat != 0) :
 			$class = ' class="last"';
 		}
 		?>
-		<div <?php echo $class; ?> >
+		<section <?php echo $class; ?> >
 		<?php $class = ''; ?>
 			<h3 class="page-header item-title">
 				<a href="<?php echo JRoute::_(ContentHelperRoute::getCategoryRoute($item->id));?>">
@@ -60,7 +60,7 @@ if (count($this->items[$this->parent->id]) > 0 && $this->maxLevelcat != 0) :
 				?>
 				</div>
 			<?php endif; ?>
-		</div>
+		</section>
 		<?php endif; ?>
 	<?php endforeach; ?>
 <?php endif; ?>
